@@ -1,0 +1,106 @@
+# ============================================================
+#  Vivado / Xilinx FPGA Project .gitignore
+#  PYNQ-Z2 · Verilog · AXI4-Stream Pipeline
+# ============================================================
+
+# ------------------------------------
+# Vivado auto-generated project files
+# ------------------------------------
+*.jou
+*.log
+*.pb
+*.str
+*.mif
+
+# Vivado project directory (regenerate with build.tcl)
+vivado/*.xpr
+vivado/*.cache/
+vivado/*.hw/
+vivado/*.ip_user_files/
+vivado/*.runs/
+vivado/*.sim/
+vivado/*.srcs/
+vivado/.Xil/
+
+# IP output products (regenerate via Vivado)
+*.dcp
+*.xci
+*.xml
+*.vho
+*.veo
+
+# Bitstream (large binary — distribute separately)
+*.bit
+*.bin
+*.ltx
+
+# Implementation checkpoint
+*.wdb
+
+# Timing / report exports (add specific ones to /reports manually)
+*.rpx
+
+# ------------------------------------
+# XSim simulation artifacts
+# ------------------------------------
+xsim.dir/
+*.wdb
+*.vcd
+*.shm/
+webtalk/
+webtalk_*.jou
+webtalk_*.log
+xelab.pb
+xsim.pb
+
+# ------------------------------------
+# Python / Jupyter
+# ------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ------------------------------------
+# OS & editor artifacts
+# ------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------
+# Large binary / data files
+# ------------------------------------
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.mp4
+*.avi
+
+# Exclude sample test images from gitignore (add back selectively)
+# !docs/images/*.png
+
+# ------------------------------------
+# Synthesis / implementation reports
+# (keep only curated final reports)
+# ------------------------------------
+# Uncomment below to ignore all auto-reports:
+# reports/
