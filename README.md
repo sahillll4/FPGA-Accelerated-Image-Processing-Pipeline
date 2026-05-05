@@ -134,7 +134,7 @@ fpga-image-pipeline/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/fpga-image-pipeline.git
+git clone https://github.com/<sahillll4>/fpga-image-pipeline.git
 cd fpga-image-pipeline
 ```
 
@@ -183,6 +183,4 @@ MIT World Peace University, Pune
 
 ---
 
-## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
